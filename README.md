@@ -1,7 +1,8 @@
 # twitch-emotes-downloader
 Python script to download streamer emotes as local png/gif files using twitch api.  
+
 e.g. `twitch_streamer_emotes_downloader.exe -c pewdiepie -d pdp -p http://localhost:10809`  
-The command line above downloads emote files (the ones in the chat emotes picker) of pewdiepie via http proxy of localhost:10809, save them as <emote_name>.<png/gif> in a folder named 'pdp' in current working directory.  
+The command line above downloads emote files (the ones in the chat emotes picker) of pewdiepie (channel name should be the one in the URL. e.g. https://www.twitch.tv/pewdiepie) via http proxy of localhost:10809, save them as <emote_name>.<png/gif> in a folder named 'pdp' in current working directory.  
 ```
 usage: twitch_streamer_emotes_downloader.exe [-h] -c CHANNEL [-d DIR] [-p PROXY]
 
